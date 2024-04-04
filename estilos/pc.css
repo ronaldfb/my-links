@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    article > ul > li > a {
+        width: 600px;
+    }
+        
+
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'special' ;
+    src: url('../fonts/GoogleFonts-SpecialElite-Regular.ttf') format('truetype');
+ 
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-bottom: 1.5px solid white;
+
+}
+
+header > h1 {
+    color: white;
+}
+
+article {
+    margin-top: 200px;
+}
+
+article > ul > li > a {
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 20px;
+    font-family: 'special';
+    text-decoration: none;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 30px;
+    box-shadow: 10px 5px 0px gray;
+}
+
+a:hover {
+    color: rgb(117, 0, 185);
+}
