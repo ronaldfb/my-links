@@ -37,9 +37,35 @@ header > h1 {
 main {
     width: 90vw;
     margin: auto;
-    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
+.container {
+    text-align: center;
+
+}
+
+.img-centralizada {
+    padding-top: 10px;
+    margin: auto;
+    display: block; /* faz a imagem um bloco para as margens automáticas funcionarem */
+}
+
+article > h2 {
+    font-family: 'special';
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+article > p {
+    text-align: center;
+    color: white;
+}
+
+article > ul {
+    margin-top: 40px;
+}
 
 article > ul > li > a {
     display: block;
