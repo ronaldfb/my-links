@@ -10,7 +10,12 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+html {
+    height: 100vh;
+ }
 
 body, html {
     background-color: black;
@@ -26,15 +31,17 @@ header {
 
 header > h1 {
     color: white;
+
 }
 
-article {
+main {
+    margin: auto;
+    width: 400px;
     margin-top: 200px;
-    width: auto;
 }
+
 
 article > ul > li > a {
-    width: 400px;
     display: block;
     margin: auto;
     margin-top: 5px;

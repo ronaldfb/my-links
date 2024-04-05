@@ -1,10 +1,23 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    article > ul > li > a {
+    main {
         width: 600px;
+        margin: auto;
+        margin-top: 200px;
     }
-        
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+
+
+    main {
+        width: 600px;
+        margin: auto;
+        margin-top: 200px;
+    }
 
 }
