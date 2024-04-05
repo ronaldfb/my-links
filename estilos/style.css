@@ -35,15 +35,14 @@ header > h1 {
 }
 
 main {
+    width: 90vw;
     margin: auto;
-    width: 400px;
     margin-top: 200px;
 }
 
 
 article > ul > li > a {
     display: block;
-    margin: auto;
     margin-top: 5px;
     padding: 17px;
     font-family: 'special';
