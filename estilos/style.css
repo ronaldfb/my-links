@@ -30,6 +30,7 @@ header > h1 {
 
 article {
     margin-top: 200px;
+    width: auto;
 }
 
 article > ul > li > a {
