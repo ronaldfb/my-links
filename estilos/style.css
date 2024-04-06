@@ -40,7 +40,7 @@ main {
     margin-bottom: 200px;
 }
 
-.container {
+.img-container {
     text-align: center;
 
 }
@@ -70,7 +70,7 @@ article > ul {
 article > ul > li > a {
     display: block;
     margin-top: 5px;
-    padding: 17px;
+    padding: 20px;
     font-family: 'special';
     text-decoration: none;
     text-align: center;
@@ -82,7 +82,11 @@ article > ul > li > a {
 }
 
 
-
 a:hover {
     color: rgb(117, 0, 185);
+}
+
+
+article> ul> li, a:hover {
+    transform: translate( 3px, 3px);
 }
