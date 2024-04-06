@@ -6,6 +6,11 @@
  
 }
 
+@font-face {
+    font-family: 'avilock';
+    src: url('../fonts/Avilock\ Bold.ttf') format('truetype');
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -30,14 +35,16 @@ header {
 }
 
 header > h1 {
+    font-family: 'avilock';
+    font-size: 3em;
     color: white;
 
 }
 
+
 main {
     width: 90vw;
     margin: auto;
-    margin-bottom: 200px;
 }
 
 .img-container {
@@ -46,7 +53,7 @@ main {
 }
 
 .img-centralizada {
-    padding-top: 10px;
+    padding-top: 20px;
     margin: auto;
     display: block; /* faz a imagem um bloco para as margens automáticas funcionarem */
 }
@@ -59,12 +66,14 @@ article > h2 {
 }
 
 article > p {
+    font-family: 'special';
     text-align: center;
     color: rgb(192, 109, 240);
 }
 
 article > ul {
-    margin-top: 40px;
+    margin-top: 30px;
+    list-style-type: none;
 }
 
 article > ul > li > a {
@@ -76,9 +85,9 @@ article > ul > li > a {
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    border: 2px solid gray;
+    border: 2px solid rgb(61, 61, 61);
     border-radius: 40px;
-    box-shadow: 10px 5px 0px gray;
+    box-shadow: 7px 5px 0px rgb(61, 61, 61);
 }
 
 
@@ -88,5 +97,5 @@ a:hover {
 
 
 article> ul> li, a:hover {
-    transform: translate( 3px, 3px);
+    transform: translate( 4px, 4px);
 }
