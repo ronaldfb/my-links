@@ -31,6 +31,7 @@ header {
     background-color: black;
     padding: 20px;
     border-bottom: 1.5px solid white;
+    margin-bottom: 20px;
 
 }
 
@@ -53,9 +54,13 @@ main {
 }
 
 .img-centralizada {
-    padding-top: 20px;
     margin: auto;
     display: block; /* faz a imagem um bloco para as margens automáticas funcionarem */
+}
+
+article > div > img {
+    border: 2px solid rgb(192, 109, 240);
+    border-radius: 100%;
 }
 
 article > h2 {
@@ -92,7 +97,7 @@ article > ul > li > a {
 
 
 a:hover {
-    color: rgb(117, 0, 185);
+    color: rgb(192, 109, 240);
 }
 
 
