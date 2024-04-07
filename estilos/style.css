@@ -7,8 +7,8 @@
 }
 
 @font-face {
-    font-family: 'avilock';
-    src: url('../fonts/Avilock\ Bold.ttf') format('truetype');
+    font-family: 'catcomic';
+    src: url('../fonts/Cat\ Comic.ttf') format('truetype');
 }
 
 *{
@@ -36,9 +36,10 @@ header {
 }
 
 header > h1 {
-    font-family: 'avilock';
+    font-family: 'catcomic';
     font-size: 3em;
-    color: white;
+    color: whitesmoke;
+    font-weight: bold;
 
 }
 
