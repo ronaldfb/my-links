@@ -64,7 +64,7 @@ main {
 }
 
 article > div > img {
-    border: 2px solid rgb(136, 0, 214);
+    border: 2px solid white;
     border-radius: 100%;
 }
 
