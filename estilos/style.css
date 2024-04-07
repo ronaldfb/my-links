@@ -95,9 +95,9 @@ article > ul > li > a {
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    border: 2px solid rgb(73, 73, 73);
+    border: 2px solid rgb(123, 50, 165);
     border-radius: 40px;
-    box-shadow: 7px 5px 0px rgb(73, 73, 73);
+    box-shadow: 7px 5px 0px rgb(123, 50, 165);
 }
 
 
