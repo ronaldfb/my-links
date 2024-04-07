@@ -23,7 +23,7 @@ html {
  }
 
 body, html {
-    background-image: linear-gradient(to bottom, black, rgb(12, 0, 19),rgb(29, 0, 41));
+    background-image: linear-gradient(to bottom, black, rgb(12, 0, 19),rgb(39, 0, 56));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@ main {
 }
 
 article > div > img {
-    border: 2px solid rgb(196, 108, 247);
+    border: 2px solid rgb(136, 0, 214);
     border-radius: 100%;
 }
 
@@ -95,14 +95,14 @@ article > ul > li > a {
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    border: 2px solid rgb(31, 31, 31);
+    border: 2px solid rgb(73, 73, 73);
     border-radius: 40px;
-    box-shadow: 7px 5px 0px rgb(31, 31, 31);
+    box-shadow: 7px 5px 0px rgb(73, 73, 73);
 }
 
 
 a:hover {
-    color: rgb(192, 109, 240);
+    color: rgb(136, 0, 214);
 }
 
 
