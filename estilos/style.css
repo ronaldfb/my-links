@@ -23,7 +23,7 @@ html {
  }
 
 body, html {
-    background-image: linear-gradient(to bottom, black, rgb(12, 0, 19),rgb(39, 0, 56));
+    background-color: black;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ article > h2 {
 article > p {
     font-family: 'special';
     text-align: center;
-    color: rgb(192, 109, 240);
+    color: white;
 }
 
 article > ul {
@@ -95,14 +95,14 @@ article > ul > li > a {
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    border: 2px solid rgb(88, 39, 116);
+    border: 2px solid rgb(61, 61, 61);
     border-radius: 40px;
-    box-shadow: 7px 5px 0px rgb(88, 39, 116);
+    box-shadow: 7px 5px 0px rgb(61, 61, 61);
 }
 
 
 a:hover {
-    color: rgb(136, 0, 214);
+    color: rgb(65, 65, 65);
 }
 
 
