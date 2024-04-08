@@ -51,6 +51,8 @@ header > h1 {
 main {
     width: 90vw;
     margin: auto;
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
 .img-container {
