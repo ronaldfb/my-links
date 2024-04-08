@@ -23,7 +23,7 @@ html {
  }
 
 body, html {
-    background-image: linear-gradient(to bottom,rgb(15, 15, 15), black);
+    background-image: linear-gradient(to bottom,rgb(22, 22, 22), black);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
