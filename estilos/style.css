@@ -88,6 +88,10 @@ article > ul {
     list-style-type: none;
 }
 
+article > ul > li {
+    padding-top: 5px;
+}
+
 article > ul > li > a {
     display: block;
     margin-top: 5px;
