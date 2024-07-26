@@ -55,15 +55,13 @@ main {
     transition-timing-function: ease;
 }
 
-.img-container {
-    text-align: center;
-
+main > article > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-centralizada {
-    margin: auto;
-    display: block; /* faz a imagem um bloco para as margens automáticas funcionarem */
-}
 
 article > div > img {
     border: 2px solid white;
@@ -93,12 +91,14 @@ article > ul > li {
 }
 
 article > ul > li > a {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 5px;
     padding: 20px;
     font-family: 'special';
     text-decoration: none;
-    text-align: center;
     background-color: whitesmoke;
     color: black;
     border: 2px solid rgb(61, 61, 61);
